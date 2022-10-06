@@ -1,2 +1,2 @@
 # GPScoordinatesInterpolation
-Convert ellipsoid height to orthometrical height with a geoid model
+Convert ellipsoid height to orthometrical height with a geoid model (WGS84)
