@@ -6,6 +6,7 @@ Consider:
 1. Define the geoid Model:
     You will need a geoid model that covers the area of interest, which provides the geoid height at different geographic coordinates. 
     The geoid model can be stored in a file or a database, and it should be in a format that allows for easy access and interpolation.
+    (I'm using the Geoid Model for Portugal as an example)
     
 2. Get the GPS Coordinates:
     You will need to get the GPS coordinates of the point of interest, including the latitude, longitude, and ellipsoid height. 
