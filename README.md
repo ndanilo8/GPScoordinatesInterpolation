@@ -1,5 +1,5 @@
 # GPScoordinatesInterpolation
-## Take GPS/GNSS ellipsoid altitude compare it with a geoid model and return the topographic altitude of any given area
+### Take GPS/GNSS ellipsoid altitude compare it with a geoid model and return the topographic altitude of any given area
 
 Consider:
 
@@ -16,3 +16,9 @@ Consider:
     The interpolation method should be chosen based on the accuracy requirements and the size of the dataset. 
     In this implementation I choose cubic spline Interpolation, which provides smoother results and better accuracy,
     but its more computational extensive 
+    
+    
+> Here are some resources to find out how this algorithm works:<br>
+https://support.pix4d.com/hc/en-us/articles/202559869-Orthometric-vs-ellipsoidal-height<br>
+https://en.wikipedia.org/wiki/Spline_interpolation<br>
+https://en.wikiversity.org/wiki/Cubic_Spline_Interpolation
